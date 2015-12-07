@@ -1,0 +1,22 @@
+{
+  "name": "gulp-babel-example",
+  "version": "1.0.0",
+  "description": "Example gulp using babel",
+  "main": "gulpfile.babel.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ringogirl",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.3.15",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13",
+    "babelify": "^7.2.0",
+    "browserify": "^12.0.1",
+    "gulp": "^3.9.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.6.1"
+  }
+}
